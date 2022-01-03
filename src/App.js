@@ -5,16 +5,7 @@ import Home from "./components/Home/Home";
 import Quiz from "./components/Quiz/Quiz";
 
 function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/questions" element={<Quiz />} />
-        </Routes>
-      </div>
-    </Router>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
